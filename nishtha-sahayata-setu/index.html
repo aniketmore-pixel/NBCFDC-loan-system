@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NBCFDC Smart Credit System | National Backward Classes Finance & Development Corporation</title>
+    <meta name="description" content="AI-powered credit scoring and loan management system for SC/ST/OBC communities. Apply for education, business, and agriculture loans with transparent, fair assessment." />
+    <meta name="author" content="NBCFDC - Government of India" />
+
+    <meta property="og:title" content="NBCFDC Smart Credit System - Empowering Backward Classes" />
+    <meta property="og:description" content="Secure, fair, and accessible financial assistance for backward class communities through AI-powered credit assessment" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://res.cloudinary.com/dyd9xroga/image/upload/v1765120337/image_icon_ftggwo.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://res.cloudinary.com/dyd9xroga/image/upload/v1765120337/image_icon_ftggwo.png" />
+
+    <!-- Styling for Google Translate -->
+   <style>
+  #google_translate_element {
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    z-index: 1000;
+    display: none;
+  }
+
+  .goog-te-gadget-simple {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+  }
+
+  .goog-te-menu-value {
+    color: #333;
+    font-weight: bold;
+  }
+
+  #translateToggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1001;
+    padding: 10px;
+    background-color: #0a66c2;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  #translateToggle img {
+    width: 20px;
+  }
+
+  #translateToggle:hover {
+    background-color: #094c8a;
+  }
+
+  .goog-te-banner-frame {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+  /* 🚫 Hide Google Toolbar */
+  .goog-te-banner-frame.skiptranslate {
+    display: none !important;
+  }
+  /* Completely hide Google top banner */
+.goog-te-banner-frame {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Hide body translation padding Google applies */
+body {
+  position: static !important;
+  top: 0 !important;
+}
+
+/* Also hide remaining elements */
+.goog-te-banner {
+  display: none !important;
+}
+.goog-te-gadget-icon {
+  display: none !important;
+}
+
+.goog-tooltip {
+  display: none ;
+}
+.goog-tooltip-text {
+  display: none ;
+}
+
+
+</style>
+
+  </head>
+
+  <body>
+    <!-- Google Translate Dropdown -->
+    <div id="google_translate_element"></div>
+
+    <!-- Toggle Button -->
+    <button id="translateToggle">
+      <img src="https://cdn-icons-png.flaticon.com/512/281/281776.png" alt="translate">
+    </button>
+
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.jsx"></script>
+
+    <script>
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({ pageLanguage: "en" }, "google_translate_element");
+      }
+
+      // Toggle Button Action
+      document.getElementById("translateToggle").addEventListener("click", () => {
+        const ele = document.getElementById("google_translate_element");
+        ele.style.display = ele.style.display === "none" || ele.style.display === "" ? "block" : "none";
+      });
+    </script>
+    <script>
+  function hideGoogleBar() {
+    const frame = document.querySelector(".goog-te-banner-frame");
+    if (frame) frame.style.display = "none";
+
+    document.body.style.top = "0px";
+  }
+
+  // Run after translation loads + repeat in case Google re-injects
+  setInterval(hideGoogleBar, 500);
+</script>
+
+
+    <!-- Google Translate API -->
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </body>
+</html>

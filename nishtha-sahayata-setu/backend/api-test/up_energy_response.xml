@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Certificate>
+  <language>99</language>
+  <name>Electricity Bill</name>
+  <type>ELEBL</type>
+  <number/>
+  <expiryDate/>
+  <validFromDate/>
+  <issuedAt/>
+  <issueDate/>
+  <status>A</status>
+  <IssuedBy>
+    <Organization>
+      <name/>
+      <code/>
+      <tin/>
+      <uid/>
+      <type>SG</type>
+      <Address>
+        <type/>
+        <line1/>
+        <line2/>
+        <house>demo123</house>
+        <landmark/>
+        <locality/>
+        <vtc/>
+        <district/>
+        <pin>12356</pin>
+        <state/>
+        <country>IN</country>
+      </Address>
+    </Organization>
+  </IssuedBy>
+  <IssuedTo>
+    <Person>
+      <uid>123456</uid>
+      <title/>
+      <name/>
+      <dob/>
+      <age/>
+      <swd>Demo swd</swd>
+      <swdIndicator/>
+      <motherName>Demo Mother name</motherName>
+      <gender/>
+      <maritalStatus/>
+      <relationWithHof/>
+      <disabilityStatus/>
+      <category/>
+      <religion/>
+      <phone>12345667891</phone>
+      <email>demo@gmail.com</email>
+      <Address>
+        <type/>
+        <line1>Demo Address</line1>
+        <line2/>
+        <house/>
+        <landmark/>
+        <locality/>
+        <vtc/>
+        <district/>
+        <pin/>
+        <state/>
+        <country>IN</country>
+      </Address>
+    </Person>
+  </IssuedTo>
+  <CertificateData>
+    <ConnectionDetails>
+      <Connection>
+        <customerID>9874563210</customerID>
+        <consumerName>DEMO</consumerName>
+        <division>EUDD BAMRAULI</division>
+        <fatherHusbandName/>
+        <sanctionedLoad>4.00 kW</sanctionedLoad>
+        <supplyType>10</supplyType>
+        <address>S/O RAMESH KUMAR D II/27 KALINDIPURAMALLD ALLAHABAD UP</address>
+        <discom>PUVNL</discom>
+        <consumerStatus>BILLABLE</consumerStatus>
+      </Connection>
+      <BillDetails>
+        <totalAmount>9097.9</totalAmount>
+        <billMonth>DEC-24</billMonth>
+      </BillDetails>
+    </ConnectionDetails>
+  </CertificateData>
+  <Signature/>
+</Certificate>
