@@ -25,6 +25,16 @@ This system improves efficiency, reduces manual paperwork, and ensures transpare
 
 ---
 
+## 📸 Screenshots
+<img width="1920" height="1080" alt="Screenshot (294)" src="https://github.com/user-attachments/assets/2fba4957-65e7-4597-90fc-558dd8524bf8" />
+<img width="1920" height="1080" alt="Screenshot (295)" src="https://github.com/user-attachments/assets/41ccb9ff-c95d-41dc-8067-1cc5d7c46cfd" />
+<img width="1920" height="1080" alt="Screenshot (296)" src="https://github.com/user-attachments/assets/39030259-6f17-41ec-b44b-91732e351192" />
+<img width="1920" height="1080" alt="Screenshot (297)" src="https://github.com/user-attachments/assets/86d54811-3210-4309-bfa2-74d770fdbdf2" />
+<img width="1920" height="1080" alt="Screenshot (298)" src="https://github.com/user-attachments/assets/69c1f534-34ea-432c-a3d7-ca698a09b574" />
+<img width="1920" height="1080" alt="Screenshot (299)" src="https://github.com/user-attachments/assets/4a0c8e7b-98ae-46ec-8363-73997d2464f2" />
+
+
+
 ## 💡 Problem Statement
 
 Traditional loan systems are:
